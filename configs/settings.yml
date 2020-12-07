@@ -1,0 +1,22 @@
+env: development
+wp_home: http://composer_project.loc
+wp_siteurl: http://composer_project.loc
+
+keys:
+  auth: AUTH_KEY
+  secure_auth: SECURE_AUTH_KEY
+  logged_in: LOGGED_IN_KEY
+  nonce:	NONCE_KEY
+  
+salt:
+  auth: 		AUTH_SALT
+  secure_auth: SECURE_AUTH_SALT
+  logged_in: 	LOGGED_IN_SALT
+  nonce: NONCE_SALT
+
+db:
+  name: composer_course
+  user: NixCourse
+  password: 0020@NxPw#@!
+  host: localhost
+  prefix: wp_
